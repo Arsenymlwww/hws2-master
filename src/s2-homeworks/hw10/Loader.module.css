@@ -1,3 +1,19 @@
+
 .loader {
-    /*свг и/или анимация*/
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid rgba(115, 103, 240, 0.2);
+    border-top-color: #7367f0; 
+    animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
