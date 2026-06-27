@@ -1,8 +1,21 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Отступ между верхним и нижним слайдером */
+  margin-top: 20px;
 }
 
 .wrapper {
+  display: flex;
+  align-items: center; /* Выравнивает числа и слайдер строго по одной линии */
+  gap: 12px; /* Расстояние между числом и краем слайдера */
 }
 
 .number {
+    font-family: 'Inter', sans-serif; /* Или стандартный шрифт проекта */
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    width: 28px; /* Фиксированная ширина, чтобы слайдеры были одинаковой длины */
+    text-align: center; /* Центрируем цифру внутри своего блока */
 }
