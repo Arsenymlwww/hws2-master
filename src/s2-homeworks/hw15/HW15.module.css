@@ -3,25 +3,49 @@
 }
 
 .developer {
-
+    width: 50%;
+    padding-left: 12px;
 }
 
 .techHeader {
     width: 50vw;
+    padding-left: 12px;
 }
 
 .developerHeader {
-
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: default;
 }
 
 .row {
     display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px 0;
+
 }
 
 .rowHeader {
     display: flex;
+
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding: 8px 0;
+    margin-bottom: 4px;
 }
 
 .loading {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0066cc;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
